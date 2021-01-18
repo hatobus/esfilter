@@ -12,5 +12,13 @@ There filter condition corresponds to `AND` (must), `OR` (should), `NOT`(must_no
 
 So, we have to use filter other logical fomula (xor, nor, nand or more...) need to combine those operators to create other operators.
 
+# operator
+
+input two value (A, B)
+
+- NAND ... `(not A) OR (not B)`
+- NOR ... `(not A) AND (not B)`
+- XOR ... `(A and (not B)) or ((not A) and B)`
+- XNOR ... `(A and B) or ((not A) and (not B))`
 
 
